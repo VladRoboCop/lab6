@@ -4,7 +4,6 @@ public class ProductController : Controller
 {
     public IActionResult Order()
     {
-        // Фиктивные данные для списка продуктов
         var products = new Product[]
         {
             new Product { Id = 1, Name = "Pizza Margherita", Price = 10.99m },
@@ -20,7 +19,6 @@ public class ProductController : Controller
     {
         if (ModelState.IsValid)
         {
-            // Логика обработки заказа продуктов
             return RedirectToAction("Confirm", "Confirmation");
         }
         return View(products);
