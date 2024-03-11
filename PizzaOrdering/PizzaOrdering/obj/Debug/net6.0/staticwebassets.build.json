@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "TsPL/vKScb2L2ZWkP2/RmK7y2PNLmagloPEhhs3O0V4=",
+  "Source": "PizzaOrdering",
+  "BasePath": "_content/PizzaOrdering",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PizzaOrdering\\wwwroot",
+      "Source": "PizzaOrdering",
+      "ContentRoot": "D:\\Microsoft Visual Studio\\source\\repos\\PizzaOrdering\\PizzaOrdering\\wwwroot\\",
+      "BasePath": "_content/PizzaOrdering",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
