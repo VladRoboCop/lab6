@@ -12,7 +12,6 @@ public class RegistrationController : Controller
     {
         if (ModelState.IsValid)
         {
-            // Логика обработки регистрации пользователя
             return RedirectToAction("Order", "Product");
         }
         return View(user);
